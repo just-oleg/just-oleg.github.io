@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+*:hover, *:hover * {
+  transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0; 
+  outline: 0;
+  background-color: rgb(0, 255, 0);
+}
+
+p, h1, h2, h3, h4, h5, h6, label {
+  margin: 0;
+  color: rgb(35, 35, 35);
+}
+
+input, textarea {
+  display: block;
+  font-family: inherit;
+  line-height: inherit;
+  border: 1px solid rgb(0, 0, 0);
+}
+    
+input::placeholder, textarea::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+    
+input:focus, textarea:focus {
+  color: rgb(0, 0, 0);
+  outline: 1px solid rgb(0, 0, 0);
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+ 
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1299px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 320px) {
+
+}
+
+
