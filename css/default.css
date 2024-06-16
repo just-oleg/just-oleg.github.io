@@ -61,7 +61,9 @@ input:focus, textarea:focus {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+  html {
+    font-size: 13px;
+  }
 }
 
 /* Landscape phones and smaller */
