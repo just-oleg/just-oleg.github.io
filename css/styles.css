@@ -414,10 +414,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-  .default-size-text {
-    font-size: 1.2em;
-  }
-  
   header {
     flex-wrap: wrap-reverse;
   }
