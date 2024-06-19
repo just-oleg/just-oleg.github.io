@@ -424,10 +424,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .default-size-text {
-    font-size: 1.6em;
-  }
-  
   .nav {
     flex-direction: column;
     /* justify-content: center; */
