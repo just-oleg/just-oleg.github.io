@@ -68,7 +68,9 @@ input:focus, textarea:focus {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-  
+  html {
+    font-size: 12px;
+  }
 }
 
 /* Landscape phones and smaller */
