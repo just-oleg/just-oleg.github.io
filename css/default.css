@@ -49,9 +49,7 @@ input:focus, textarea:focus {
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1299px) {
-  html {
-    font-size: 14px;
-  }
+  
 }
 
 /* Portrait tablets and small desktops */
